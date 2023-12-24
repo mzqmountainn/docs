@@ -14,6 +14,6 @@ jobs:
           BUILD_SCRIPT: npm install pnpm -g && pnpm install && pnpm run build
           BUILD_DIR: docs
           TARGET_REPO: mzqmountainn/docs
-          TARGET_BRANCH: master
+          TARGET_BRANCH: gh-pages
           COMMIT_MESSAGE: 自动打包完成
           #CNAME: blog.huankong.top

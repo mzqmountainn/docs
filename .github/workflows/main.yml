@@ -11,7 +11,7 @@ jobs:
         uses: jenkey2011/vuepress-deploy@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BUILD_SCRIPT: yarn && yarn docs:build
+          BUILD_SCRIPT: pm install vuepress-theme-reco --save-dev && npm run docs:dev
           BUILD_DIR: docs
           TARGET_REPO: mzqmountainn/docs
           TARGET_BRANCH: gh-pages

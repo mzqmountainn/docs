@@ -9,6 +9,7 @@ jobs:
 
       - name: vuepress-deploy
         uses: jenkey2011/vuepress-deploy@master
+        with: pnpm run docs:build
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BUILD_SCRIPT: npm install pnpm -g && pnpm install && pnpm run build

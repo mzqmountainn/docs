@@ -1,5 +1,5 @@
 import { hopeTheme } from 'vuepress-theme-hope'
-export default {
+moudle.exports = {
   title: "mzq's docs",
   description: "mzq's docs",
   theme: 'hopeTheme'({}),

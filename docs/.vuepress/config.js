@@ -1,4 +1,5 @@
-module.exports = {
+import { recoTheme } from 'vuepress-theme-reco'
+export default {
   title: "mzq's docs",
   description: "mzq's docs",
   theme: 'reco',

@@ -1,8 +1,14 @@
 import { hopeTheme } from 'vuepress-theme-hope'
-moudle.exports = {
+export default {
   title: "mzq's docs",
   description: "mzq's docs",
-  theme: 'hopeTheme'({}),
+  theme: 'hopeTheme'({
+    plugins: {
+      mdEnhance: {
+        include: true
+      }
+    }
+  }),
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },

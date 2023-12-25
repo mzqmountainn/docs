@@ -1,8 +1,8 @@
-import { recoTheme } from 'vuepress-theme-reco'
+import { plumeTheme } from '@vuepress-plume/vuepress-theme-plume'
 export default {
   title: "mzq's docs",
   description: "mzq's docs",
-  theme: 'reco',
+  theme: 'plumeTheme',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },

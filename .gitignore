@@ -1,0 +1,5 @@
+.cache
+.temp
+.vscode
+docs
+node_modules

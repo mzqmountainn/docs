@@ -1,14 +1,7 @@
-import { hopeTheme } from 'vuepress-theme-hope'
-export default {
+module.exports = {
   title: "mzq's docs",
   description: "mzq's docs",
-  theme: 'hopeTheme'({
-    plugins: {
-      mdEnhance: {
-        include: true
-      }
-    }
-  }),
+  theme: 'reco',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },

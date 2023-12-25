@@ -1,8 +1,8 @@
-import { plumeTheme } from '@vuepress-plume/vuepress-theme-plume'
+import { hopeTheme } from 'vuepress-theme-hope'
 export default {
   title: "mzq's docs",
   description: "mzq's docs",
-  theme: 'plumeTheme',
+  theme: 'hopeTheme'({}),
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
